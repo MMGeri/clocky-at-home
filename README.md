@@ -1,11 +1,12 @@
 # clocky-at-home
 
-A self-hosted time tracker that logs work locally and syncs it to [Clockify](https://clockify.me), with Jira task integration.
+A self-hosted time tracker that logs work locally, imports your entries from [Clockify](https://clockify.me) and pushes them as worklogs to Jira.
 
 - Start/stop a running timer or add manual time entries
 - Calendar, dashboard and reports views
 - Browse Jira issues and create subtasks
-- Sync entries to Clockify (and mark them as synchronized)
+- Import time entries from Clockify (one-way: Clockify → clocky; nothing is written back to Clockify)
+- Sync entries to Jira as issue worklogs, and mark them as synced
 - Per-user accounts and settings (API keys are stored in the local SQLite database)
 
 ## Stack
