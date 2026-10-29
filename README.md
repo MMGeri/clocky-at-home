@@ -9,6 +9,13 @@ A self-hosted time tracker that logs work locally, imports your entries from [Cl
 - Sync entries to Jira as issue worklogs, and mark them as synced
 - Per-user accounts and settings (API keys are stored in the local SQLite database)
 
+## Screenshots
+
+![Timer](docs/images/ftx-clockify-timer-page.png)
+![Calendar](docs/images/ftx-clockify-calendar.png)
+![Reports](docs/images/ftx-clockify-reports.png)
+![Settings](docs/images/ftx-clockify-settings.png)
+
 ## Stack
 
 - **Client:** React, TypeScript, Vite, Tailwind CSS (`client/`)
